@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Hiroshi here</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background-color: #f0f4f8; /* Color de fondo suave */
+            margin: 0;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+        .container {
+            background-color: #ffffff;
+            padding: 40px;
+            border-radius: 15px;
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            max-width: 500px;
+            width: 100%;
+        }
+        a {
+            display: inline-block;
+            background-color: #4f46e5; /* Morado vibrante */
+            color: white;
+            padding: 15px 30px;
+            border-radius: 10px;
+            text-decoration: none;
+            font-size: 1.25rem; /* Texto más grande */
+            font-weight: 600;
+            transition: background-color 0.3s ease, transform 0.2s ease;
+        }
+        a:hover {
+            background-color: #4338ca; /* Morado más oscuro al pasar el ratón */
+            transform: translateY(-2px); /* Pequeño efecto de elevación */
+        }
+        p {
+            margin-bottom: 25px;
+            font-size: 1.1rem;
+            color: #4a5568;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <p>Haz clic en el botón de abajo para enviarme un correo electrónico:</p>
+        <!--
+            El atributo 'href' usa el protocolo 'mailto:'.
+            Reemplaza 'tucorreo@ejemplo.com' con tu dirección de correo real.
+            Puedes añadir un asunto predeterminado usando '?subject=Asunto del correo'.
+            También puedes añadir cuerpo predeterminado usando '&body=Hola!'.
+        -->
+        <a href="mailto:alejandrotocaboca2015@gmail.com">
+            Enviar Correo Electrónico
+        </a>
+    </div>
+</body>
+</html>
